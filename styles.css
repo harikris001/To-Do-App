@@ -59,13 +59,14 @@ button{
 }
 
 ul li{
-    padding: 10px 45px 17px 50px;
+    padding: 10px 8px 12px 70px;
     list-style-type: none;
     font-size: 15px;
     user-select: none;
     display: flex;
     align-items: center;
     cursor: pointer;
+    position: relative;
 }
 
 ul li::before{
@@ -73,10 +74,12 @@ ul li::before{
     border-radius: 50%;
     height: 28px;
     width: 28px;
-    margin-right: 12px;
+    margin-left: 20px;
     background-image: url(images/unchecked.png);
     background-size: cover;
     background-position: center;
+    position: absolute;
+    left: 12px;
 }
 ul li.done{
     color: #6c6969b1;
@@ -86,13 +89,15 @@ ul li.done::before{
     background-image: url(images/checked.png);
 }
 ul li span{
-    margin-left: auto;
+    position: absolute;
+    right: 35px;
     padding: 5px;
     color: #770202;
     font-size: 15px;
     font-weight: 650;
     border-radius: 40px;
     justify-content: center;
+    margin-top: 2px;
 }
 ul li span:hover{
     color: #e60909;
