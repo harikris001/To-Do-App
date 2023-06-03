@@ -1,6 +1,6 @@
 # ToDoList Web Application
 
-![ToDoList Logo]([https://www.shutterstock.com/image-vector/do-list-lettering-vector-pencil-260nw-1837137628.jpg])
+![ToDoList Logo](https://www.shutterstock.com/image-vector/do-list-lettering-vector-pencil-260nw-1837137628.jpg)
 
 > A web application for creating and organizing your to-do lists.
 
